@@ -7,13 +7,15 @@ int main(){
 	float hasil;
 	string operasi;
 	
-ulang :	
-	cout<<"PILIH OPERATOR ARITMATIKA"<<endl;
-	cout<<"1. Penjumlahan"<<endl;
-	cout<<"2. Pengurangan"<<endl;
-	cout<<"3. Perkalian"<<endl;
-	cout<<"4. Pembagian"<<endl;
-	cout<<"5. Modulus"<<endl;
+ulang :
+	cout<<"--------------------------------"<<endl;	
+	cout<<"PILIH OPERATOR ARITMATIKA\t|"<<endl;
+	cout<<"1. Penjumlahan\t\t\t|"<<endl;
+	cout<<"2. Pengurangan\t\t\t|"<<endl;
+	cout<<"3. Perkalian	\t\t|"<<endl;
+	cout<<"4. Pembagian	\t\t|"<<endl;
+	cout<<"5. Modulus	\t\t|"<<endl;
+	cout<<"--------------------------------|"<<endl;
 	cout<<endl;
 	
 	cout<<"Masukan Pilihan : ";
@@ -42,17 +44,17 @@ ulang :
 		default :
 			cout<<"Salah Masukan Operator"<<endl;
 	}
-	cout<<"-----------------------------"<<endl;
-	cout<<"    "<<bil1<<operasi<<bil2<<"="<<hasil<<endl;
-	cout<<"-----------------------------"<<endl;
-	cout<<"Lanjut menghitung\n1.Lanjut\n2.Tidak"<<endl;
+	cout <<"-----------------------------"<<endl;
+	cout <<"Hasil "<<bil1<<operasi<<bil2<<"=" << hasil << endl;
+	cout <<"-----------------------------"<<endl;
+	cout <<"Lanjut menghitung\n1.Lanjut\n2.Tidak"<<endl;
 	cin>>lnj;
-	if(lnj==1){
+	if(lnj == 1){
 		cout<<"lanjut\n";
 		goto ulang;
 	}
 	else if(lnj==2){
-		cout<<"Program Berhenti";
+		cout<<"Program Berhenti \nTerima Kasih";
 	}
 	else{
 		cout<<"Salah Masukan pilihan"<<endl;
