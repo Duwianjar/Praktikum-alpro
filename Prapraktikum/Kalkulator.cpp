@@ -8,7 +8,8 @@ int main(){
 	string operasi;
 	
 ulang :
-	cout<<"--------------------------------"<<endl;	
+	cout<<"*******PROGRAM KALKULATOR*******|"<<endl;
+	cout<<"--------------------------------|"<<endl;	
 	cout<<"PILIH OPERATOR ARITMATIKA\t|"<<endl;
 	cout<<"1. Penjumlahan\t\t\t|"<<endl;
 	cout<<"2. Pengurangan\t\t\t|"<<endl;
@@ -54,7 +55,7 @@ ulang :
 		goto ulang;
 	}
 	else if(lnj==2){
-		cout<<"Program Berhenti \nTerima Kasih";
+		cout<<"Program Berakhir \nTerima Kasih";
 	}
 	else{
 		cout<<"Salah Masukan pilihan"<<endl;
