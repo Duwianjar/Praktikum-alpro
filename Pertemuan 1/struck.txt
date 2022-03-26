@@ -2,13 +2,13 @@ Daftar pesanan :
 -------------------------------------------------
      Menu      |Harga 1an  | jumlah |   Harga   |
 -------------------------------------------------
-- AYAM GORENG   17.000     x   1     : 17000 
-- AYAM BAKAR    21.000     x   0     : 0 
+- AYAM GORENG   17.000     x   2     : 34000 
+- AYAM BAKAR    21.000     x   1     : 21000 
 -------------------------------------------------
-Sub Total                            : 17000 
-Diskon                               : 0 
-Total                                : 17000 
-Di Bayar                             : 20000 
-Kembalian                            : 3000 
+Sub Total                            : 55000 
+Diskon                               : 5500 
+Total                                : 49500 
+Di Bayar                             : 50000 
+Kembalian                            : 500 
 -----------------------------------------------
 Terima Kasih Atas Kunjungan Anda di Kedai Ayam Kota x
