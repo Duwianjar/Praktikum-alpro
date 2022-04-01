@@ -164,10 +164,10 @@ int main (){
     	fprintf (pstruck, "Di Bayar                                   : %d \n", byr);
     	fprintf (pstruck, "Kembalian                                  : %d \n", kbl);
     	fprintf (pstruck, "-----------------------------------------------\n");
-    	fprintf (pstruck, "Terima Kasih Atas Kunjungan Anda di RUMAH MAKAN  x\n");
+    	fprintf (pstruck, "Terima Kasih Atas Kunjungan Anda di RUMAH MAKAN (Bisa Delivery)\n");
     	cout<<"KEMBALI                    : Rp. "<<kbl<<endl;
     	cout<<"-----------------------------------------------------"<<endl;
-    	cout<<"Terima Kasih Atas Kunjungan Anda di RUMAH MAKAN  x";
+    	cout<<"Terima Kasih Atas Kunjungan Anda di RUMAH MAKAN (Bisa Delivery)";
     	return 0;
     	getch();
 		}
