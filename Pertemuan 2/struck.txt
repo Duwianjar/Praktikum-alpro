@@ -1,0 +1,23 @@
+Daftar pesanan : 
+---------------------------------------------------------
+     Menu           |Harga 1an   | jumlah   |   Harga   |
+---------------------------------------------------------
+- NASI BAKAR AYAM     18.000     x   0     : 0 
+- NASI BAKAR TONGKOL  20.000     x   8     : 160000 
+- NASI BAKAR MIX      25.000     x   0     : 0 
+- NASI BAKAR CUMI     30.000     x   0     : 0 
+- NASI GORENG BAKAR   25.000     x   0     : 0 
+---------------------------------------------------------
+Sub Total                                  : 160000 
+Potongan Harga                35 %          : 56000 
+---------------------------------------------------------
+Total harga sebelum Ongkir                 : 104000 
+Ongkir                                     : 20000 
+Diskon Ongkir                              : 12000 
+---------------------------------------------------------
+Total Ongkir                               : 8000 
+Total                                      : 112000 
+Di Bayar                                   : 200000 
+Kembalian                                  : 88000 
+-----------------------------------------------
+Terima Kasih Atas Kunjungan Anda di RUMAH MAKAN  x
