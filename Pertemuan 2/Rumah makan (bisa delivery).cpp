@@ -1,6 +1,5 @@
 #include<iostream>
 #include<conio.h>
-
 using namespace std;
 
 int main (){ 
@@ -16,7 +15,7 @@ int main (){
     	cout<<"                RUMAH MAKAN                |"<<endl;
     	cout<<"              (Bisa Delivery)              |"<<endl;
     	cout<<"============================================"<<endl;
-    	cout<<"  Menu Makanan           Harga             |"<<endl;
+    	cout<<"    Menu Makanan               Harga       |"<<endl;
     	cout<<"-------------------------------------------|"<<endl;
     	cout<<"1. NASI BAKAR AYAM          Rp. 18.000     |"<<endl;
     	cout<<"2. NASI BAKAR TONGKOL       Rp. 20.000     |"<<endl;
@@ -24,8 +23,9 @@ int main (){
     	cout<<"4. NASI BAKAR CUMI          Rp. 30.000     |"<<endl;
     	cout<<"5. NASI BAKAR BAKAR         Rp. 25.000     |"<<endl;
     	cout<<"-------------------------------------------|"<<endl;
-		cout<<"MASUKKAN PILIHAN ANDA        :";cin>>kode;
-    	cout<<"--------------------------------------------"<<endl;
+		cout<<"\nMASUKKAN PILIHAN ANDA        :";   
+		cin>>kode;
+    	cout<<"-------------------------------------------"<<endl;
     	 
     	switch (kode){
     		case 1:  cout<<"ANDA MEMESAN NASI BAKAR AYAM   \t\t   |"<<endl;
@@ -34,7 +34,7 @@ int main (){
         		cin>>jml1;
         		cout<<"--------------------------------------------"<<endl;
         		tot1=tot1+(pri*jml1);
-        		cout<<"Total harga nasi bakar ayam yaitu : Rp. "<<tot1<<endl;
+        		cout<<"Total harga nasi bakar ayam yaitu : Rp."<<tot1<<endl;
 	        	cout<<"============================================"<<endl;
         		cout<<"Masih ada Y/T :";
         		cin>>mad;
@@ -46,7 +46,7 @@ int main (){
         		cin>>jml2;
         		cout<<"--------------------------------------------"<<endl;
         		tot2=tot2+(pri*jml2);
-        		cout<<"Total harga nasi bakar tongkol yaitu : Rp. "<<tot2<<endl;
+        		cout<<"Total harga nasi bakar tongkol yaitu : Rp."<<tot2<<endl;
         		cout<<"============================================"<<endl;
         		cout<<"Masih ada Y/T :";
         		cin>>mad;
@@ -59,7 +59,7 @@ int main (){
         		cin>>jml3;
         		cout<<"--------------------------------------------"<<endl;
         		tot3=tot3+(pri*jml3);
-        		cout<<"Total harga nasi bakar mix yaitu : Rp. "<<tot3<<endl;
+        		cout<<"Total harga nasi bakar mix yaitu : Rp."<<tot3<<endl;
         		cout<<"============================================"<<endl;
         		cout<<"Masih ada Y/T :";
         		cin>>mad;
@@ -72,7 +72,7 @@ int main (){
         		cin>>jml4;
         		cout<<"--------------------------------------------"<<endl;
         		tot4=tot4+(pri*jml4);
-        		cout<<"Total harga nasi bakar cumi yaitu : Rp. "<<tot4<<endl;
+        		cout<<"Total harga nasi bakar cumi yaitu : Rp."<<tot4<<endl;
         		cout<<"============================================"<<endl;
         		cout<<"Masih ada Y/T :";
         		cin>>mad;
@@ -85,7 +85,7 @@ int main (){
         		cin>>jml5;
         		cout<<"--------------------------------------------"<<endl;
         		tot5=tot5+(pri*jml5);
-        		cout<<"Total harga nasi bakar tongkol yaitu : Rp. "<<tot5<<endl;
+        		cout<<"Total harga nasi bakar tongkol yaitu : Rp."<<tot5<<endl;
         		cout<<"============================================"<<endl;
         		cout<<"Masih ada Y/T :";
         		cin>>mad;
